@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta name="google-site-verification" content="lQJ5FZKR_BmkyriFCeat-m12YkhkSMWvxbB41dGU9xM">
+
+        <title>Crowe VPN - login</title>
+
+        <!-- Icons -->
+        <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+        
+        <!-- END Icons -->
+
+        <!-- Stylesheets -->
+        <!-- Fonts and Dashmix framework -->
+        <link rel="stylesheet" href="{% static 'vpn-assets/css.css'%}">
+        <link rel="stylesheet" id="css-main" href="{% static 'vpn-assets/dashmix.min.css'%}">
+
+        <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+        <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/xwork.min.css"> -->
+        <!-- END Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="{% static 'vpn-assets/fonts.css'%}">
+    </head>
+    <body><style type="text/css">
+    .group-log-wrapper{
+        background-image: url('https://www.ais.net.my/tpos/assets/media/logo/TPOS LOGO.png');
+        padding: 20px 10px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .group-log-wrapper .text-warning{
+        margin-top: 40px;
+    }
+    .error,.error p.text-danger{
+        margin: 0px;
+    }
+    </style>
+    <div id="content">
+
+        {% include 'authentication/messages.html' %}
+
+        {% block content %}  {% endblock content %}
+        
+    </div>
+    <div id="page-container" class="side-trans-enabled">
+    <!-- Main Container -->
+    <main id="main-container">
+
+        <!-- Page Content -->
+        <div class="bg-image" style="background-image: url({% static 'vpn-assets/login-banner.png'%});">
+            <div class="row no-gutters bg-primary-op justify-content-center">
+                <!-- Meta Info Section -->
+                <div class="hero-static col-md-6 d-none d-md-flex align-items-md-center justify-content-md-center text-md-center">
+                    <div class="p-3">
+                        <p class="mb-4">
+                            <img src="{% static 'vpn-assets/Crowe%20Logo%20PMS130%20282-01.png'%}">
+                        </p>
+						<p class="mb-4">
+                            <img src="{% static 'vpn-assets/user.png'%}">
+                        </p>
+                        <p class="font-size-lg font-w600 text-warning mb-4">
+                            Crowe VPN Reset Password<span class="text-white"></span>
+                        </p>
+                        <!-- <form class="js-validation-signin" action="auth/login" method="post" novalidate="novalidate"> -->
+                        <form method="post" action="forgot_pwd"  class="login-form">{% csrf_token %}
+                            <div class="py-3">
+                                <div class="form-group mb-4">
+                                    <input size="30" type="text" class="form-control form-control-lg form-control-alt" id="username" name="username" placeholder="Username" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAUBJREFUOBGVVE2ORUAQLvIS4gwzEysHkHgnkMiEc4zEJXCMNwtWTmDh3UGcYoaFhZUFCzFVnu4wIaiE+vvq6+6qTgthGH6O4/jA7x1OiCAIPwj7CoLgSXDxSjEVzAt9k01CBKdWfsFf/2WNuEwc2YqigKZpK9glAlVVwTTNbQJZlnlCkiTAZnF/mePB2biRdhwHdF2HJEmgaRrwPA+qqoI4jle5/8XkXzrCFoHg+/5ICdpm13UTho7Q9/0WnsfwiL/ouHwHrJgQR8WEwVG+oXpMPaDAkdzvd7AsC8qyhCiKJjiRnCKwbRsMw9hcQ5zv9maSBeu6hjRNYRgGFuKaCNwjkjzPoSiK1d1gDDecQobOBwswzabD/D3Np7AHOIrvNpHmPI+Kc2RZBm3bcp8wuwSIot7QQ0PznoR6wYSK0Xb/AGVLcWwc7Ng3AAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" autocomplete="off">
+                                </div>
+                                <div class="form-group">
+                                    <input size="30" type="text" class="form-control form-control-lg form-control-alt" id="email" name="email" placeholder="Email" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAUBJREFUOBGVVE2ORUAQLvIS4gwzEysHkHgnkMiEc4zEJXCMNwtWTmDh3UGcYoaFhZUFCzFVnu4wIaiE+vvq6+6qTgthGH6O4/jA7x1OiCAIPwj7CoLgSXDxSjEVzAt9k01CBKdWfsFf/2WNuEwc2YqigKZpK9glAlVVwTTNbQJZlnlCkiTAZnF/mePB2biRdhwHdF2HJEmgaRrwPA+qqoI4jle5/8XkXzrCFoHg+/5ICdpm13UTho7Q9/0WnsfwiL/ouHwHrJgQR8WEwVG+oXpMPaDAkdzvd7AsC8qyhCiKJjiRnCKwbRsMw9hcQ5zv9maSBeu6hjRNYRgGFuKaCNwjkjzPoSiK1d1gDDecQobOBwswzabD/D3Np7AHOIrvNpHmPI+Kc2RZBm3bcp8wuwSIot7QQ0PznoR6wYSK0Xb/AGVLcWwc7Ng3AAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="custom-control custom-checkbox text-left"></div>
+                            <div class="form-group">
+                                <input name="type" type="hidden" id="login_type">
+                                <button type="submit" class="btn btn-block btn-hero-lg btn-hero-warning mb-5" id ="button" onclick="local_storage()">Verify</button>
+                                <div class="custom-control custom-checkbox text-left"></div>                               
+                            </div>
+                            <div class="text-right">
+    	                	    <a class="button text-white-75" href="home">Back</a>
+    	                    </div>
+                            <div class="mb-3 text-center group-log-wrapper"></div>
+                        </form>
+                        <!-- <p class="font-size-lg font-w600 text-white-75 mb-0">
+                            Copyright &copy; <span class="js-year-copy">2018</span>
+                        </p> -->
+                    </div>
+                </div>
+                <!-- END Meta Info Section -->
+            </div>
+        </div>
+        <!-- END Page Content -->
+
+    </main>
+    <!-- END Main Container -->
+</div>
+<!-- END Page Container -->		
+		<script src="{% static 'vpn-assets/dashmix.core.min.js'%}"></script><div style="position: static !important;"></div>
+        <script src="{% static 'vpn-assets/dashmix.app.min.js'%}"></script>
+        <script src="{% static 'vpn-assets/jquery.validate.min.js'%}"></script>
+        <script src="{% static 'vpn-assets/op_auth_signup.min.js'%}"></script>
+        <script>
+			function local_storage() {
+			  	var username = document.getElementById("username").value;
+			  	var email = document.getElementById("email").value;
+			  	const btn = document.getElementById("button")
+			 	btn.disabled = false;
+				setTimeout(()=>{btn.disabled = true;},0)			
+			 	localStorage.setItem("username",username);
+			  	localStorage.setItem("email", email);
+			}
+		</script>
+		<script src="{% static 'vpn-assets/js/jquery.min.js'%}"></script>
+  		<script src="{% static 'vpn-assets/js/popper.js'%}"></script>
+  		<script src="{% static 'vpn-assets/js/bootstrap.min.js'%}"></script>
+  		<script src="{% static 'vpn-assets/js/main.js'%}"></script>
+        <script>
+            setTimeout(function(){
+              if ($('#msg').length > 0) {
+                $('#msg').remove();
+              }
+            }, 5000)
+        </script> 
+    
+<iframe style="display: none;"></iframe><hv-copy-modal></hv-copy-modal></body></html>

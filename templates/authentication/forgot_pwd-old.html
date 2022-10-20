@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+{% load static %}
+
+  <head>
+  	<title>Reset password</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+	</head>
+	<body class="bg-image" style="background-image: url({% static 'vpn-assets/login-banner.png'%});">
+		<div id="content">
+
+			{% include 'authentication/messages.html' %}
+	
+			{% block content %}  {% endblock content %}
+			
+		  </div>
+		<section class="ftco-section">
+			<div class="container">
+				<div class="row justify-content-center">
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-7 col-lg-5">
+						<div class="login-wrap p-4 p-md-5">
+							<!-- <p class="icon d-flex align-items-center justify-content-center">
+    	                        <img src="{% static 'vpn-assets/Crowe%20Logo%20PMS130%20282-01.png'%}">
+    	                    </p>
+							<p class="icon d-flex align-items-center justify-content-center">
+    	                        <img src="{% static 'vpn-assets/user.png'%}">
+    	                    </p>
+    	                    <p class="font-size-lg font-w600 text-warning mb-4">
+    	                         Crown VPN Portal.<span class="text-white"></span>
+    	                    </p> -->
+			      	<div class="icon d-flex align-items-center justify-content-center">
+			      		<span class="fa fa-user-o"></span>
+			      	</div>
+			      	<h3 class="text-center mb-4">Reset Password</h3>
+				    <form method="post" action="forgot_pwd"  class="login-form">{% csrf_token %}
+			      		<div class="form-group">
+			      			<input type="text" class="form-control rounded-left" id="username" name="username" placeholder="Username" required>
+			      		</div>
+		            	<div class="form-group">
+		            	  	<input type="text" class="form-control rounded-left" id="email" name="email" placeholder="Email" required>
+		            	</div>
+    	            	  	<div class="form-group">
+		            			<button type="submit" class="form-control btn btn-primary rounded submit px-3" onclick="local_storage()" id ="button">Verify</button>
+		            		</div>
+		            	<div class="form-group d-md-flex">
+		            	<div class="w-50">
+    	                    </label>
+    	                </div>
+    	                	<div class="w-50 text-md-right">
+    	                	    <a href="home">Back</a>
+    	                	</div>
+		            	</div>              
+		        	</form>
+		        </div>
+				</div>
+				</div>
+			</div>
+		</section>
+		<script>
+			function local_storage() {
+			  	var username = document.getElementById("username").value;
+			  	var email = document.getElementById("email").value;
+			  	const btn = document.getElementById("button")
+			 	btn.disabled = false;
+				setTimeout(()=>{btn.disabled = true;},0)			
+			 	localStorage.setItem("username",username);
+			  	localStorage.setItem("email", email);
+			}
+		</script>
+		<script src="{% static 'vpn-assets/js/jquery.min.js'%}"></script>
+  		<script src="{% static 'vpn-assets/js/popper.js'%}"></script>
+  		<script src="{% static 'vpn-assets/js/bootstrap.min.js'%}"></script>
+  		<script src="{% static 'vpn-assets/js/main.js'%}"></script>
+  		<script></script> 
+  		<script>
+			setTimeout(function(){
+			  if ($('#msg').length > 0) {
+				$('#msg').remove();
+			  }
+			}, 5000)
+  		</script> 
+	</body>
+</html>
+

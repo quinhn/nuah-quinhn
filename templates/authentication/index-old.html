@@ -1,0 +1,103 @@
+
+<!doctype html>
+<html lang="en">
+
+{% load static %}
+
+  <head>
+  	<title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+	</head>
+	<body style="background-image: url('https://www.ais.net.my/tpos/assets/media/logo/TPOS LOGO.png'); background-color: darkslategrey;">
+		<div id="content">
+
+			{% include 'authentication/messages.html' %}
+	
+			{% block content %}  {% endblock content %}
+			
+		</div>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<!-- <h3 class="heading-section">Crowe VPN Portal</h3> -->
+					<img src="https://www.ais.net.my/tpos/assets/media/logo/Crowe Logo PMS130 282-01.png">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-7 col-lg-5">
+					<div class="login-wrap p-4 p-md-5">
+		      	<div class="icon d-flex align-items-center justify-content-center">
+		      		<span class="fa fa-user-o"></span>
+		      	</div>
+				
+		      	<h3 class="text-center mb-4">Crowe VPN Portal</h3>
+				<form method="post" action="signin" class="login-form">{% csrf_token %}					
+		      		<div class="form-group">
+		      			<input type="text" id="username" name="username" class="form-control rounded-left" placeholder="Username" required>
+		      		</div>
+	            	<div class="form-group d-flex">
+	              		<input type="password" id="password" name="password" class="form-control rounded-left" placeholder="Password" required>
+	            	</div>
+					<input type="checkbox" onclick="showPassFunction()"> Show Password</input>
+	            	<div class="form-group">
+	            		<button type="submit" class="form-control btn btn-primary rounded submit px-3"  id ="button" onclick ="btn_click()">Login</button>
+	            	</div>
+				
+	            	<div class="form-group d-md-flex">
+	            	<div class="w-50">
+					</label>
+					</div>
+					<div class="w-50 text-md-right">
+						<a href="forgot_pwd">Forgot Password</a>
+					</div>
+					</div>
+	          	</form>
+	        </div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<script src="{% static 'js/jquery.min.js'%}"></script>
+	<script src="{% static 'js/popper.js'%}"></script>
+	<script src="{% static 'js/bootstrap.min.js'%}"></script>
+	<script src="{% static 'js/main.js'%}"></script>
+	<script>
+		function showPassFunction() {
+		  var x = document.getElementById("password");
+		  if (x.type === "password") {
+			x.type = "text";
+		  } else {
+			x.type = "password";
+		  }
+		}
+	</script>
+	<script>
+		const btn = document.getElementById("button")
+		function btn_click() {
+			btn.disabled = false;
+			setTimeout(()=>{
+				btn.disabled = true;
+			  	console.log('Button Activated')},0)
+		  }
+	</script> 
+	<script>
+		setTimeout(function(){
+		  if ($('#msg').length > 0) {
+			$('#msg').remove();
+		  }
+		}, 5000)
+	  </script> 
+	</body>
+</html>
+

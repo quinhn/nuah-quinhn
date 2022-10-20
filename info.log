@@ -1,0 +1,536 @@
+2022-09-06 03:58:25,398 - INFO - views - Quoc ne
+2022-09-06 04:00:28,243 - INFO - views - <WSGIRequest: GET '/home'>
+2022-09-06 04:01:50,204 - INFO - views - test01 login success.
+2022-09-06 04:02:58,495 - INFO - views - <WSGIRequest: GET '/home'>
+2022-09-06 04:03:07,327 - INFO - views - User test01 login success.
+2022-09-06 04:03:35,357 - INFO - views - <WSGIRequest: GET '/home'>
+2022-09-06 04:03:42,434 - INFO - views - User 'test01' login success.
+2022-09-06 04:03:42,689 - INFO - views - User 'test01' login success.
+2022-09-06 04:03:51,554 - INFO - views - <WSGIRequest: GET '/home'>
+2022-09-06 04:18:28,716 - INFO - views - User 'test01' login success.
+2022-09-06 04:19:05,990 - INFO - views - User 'test01' login success.
+2022-09-06 04:19:56,165 - INFO - views - User 'test01' login success.
+2022-09-06 04:51:47,580 - ERROR - views - User 'test01' login fail.
+2022-09-06 04:56:09,025 - ERROR - views - User 'test01' login fail.
+2022-09-06 04:56:17,180 - INFO - views - User 'test01' login success.
+2022-09-06 06:33:40,443 - ERROR - views - User 'dsf' login fail.
+2022-09-06 06:33:53,602 - ERROR - views - User 'asd' login fail.
+2022-09-06 07:25:04,193 - ERROR - views - User 'asdas' login fail.
+2022-09-06 07:25:47,610 - ERROR - views - User 'asd' login fail.
+2022-09-06 09:23:17,168 - INFO - views - User 'test01' login success.
+2022-09-06 09:44:22,722 - INFO - views - User 'test01' login success.
+2022-09-06 09:45:45,767 - ERROR - views - User 'test01' login fail.
+2022-09-06 09:45:54,266 - INFO - views - User 'test01' login success.
+2022-09-06 12:58:11,929 - INFO - views - User 'test01' login success.
+2022-09-06 13:01:33,021 - ERROR - views - User 'ds' login fail.
+2022-09-06 13:06:31,307 - INFO - views - User 'test01' login success.
+2022-09-06 13:22:52,452 - INFO - views - User 'test01' login success.
+2022-09-06 13:27:06,239 - INFO - views - User 'test01' login success.
+2022-09-06 13:27:23,076 - ERROR - views - User 'test01' change password too short.
+2022-09-06 13:27:59,102 - ERROR - views - User 'test01' change password too short.
+2022-09-06 13:47:09,556 - INFO - views - User 'test01' login success.
+2022-09-06 13:50:39,979 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-06 14:24:39,360 - INFO - views - User 'test01' login success.
+2022-09-06 14:28:28,745 - INFO - views - User 'test01' login success.
+2022-09-07 01:02:06,063 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:02:17,635 - INFO - views - User 'test01' login success.
+2022-09-07 01:04:04,952 - INFO - views - User 'test01' login success.
+2022-09-07 01:07:01,387 - INFO - views - User 'test01' login success.
+2022-09-07 01:10:38,072 - INFO - views - User 'test01' login success.
+2022-09-07 01:10:53,833 - INFO - views - User 'test01' login success.
+2022-09-07 01:11:23,120 - INFO - views - User 'test01' login success.
+2022-09-07 01:13:34,806 - INFO - views - User 'test01' request reset password success.
+2022-09-07 01:20:33,734 - INFO - views - User 'test01' login success.
+2022-09-07 01:21:14,488 - ERROR - views - User 'asd' login fail.
+2022-09-07 01:22:34,759 - ERROR - views - User 'sdf' login fail.
+2022-09-07 01:23:13,721 - ERROR - views - User 'asd' login fail.
+2022-09-07 01:23:23,309 - INFO - views - User 'test01' login success.
+2022-09-07 01:23:38,666 - ERROR - views - User 'dasd' login fail.
+2022-09-07 01:25:27,821 - INFO - views - User 'test01' login success.
+2022-09-07 01:26:52,297 - INFO - views - User 'test01' request reset password success.
+2022-09-07 01:27:53,486 - ERROR - views - User 'asd' request reset password fail.
+2022-09-07 01:28:27,921 - ERROR - views - User 'asd' request reset password fail.
+2022-09-07 01:28:42,683 - INFO - views - User 'test01' request reset password success.
+2022-09-07 01:29:01,799 - INFO - views - User 'test01' reset password success.
+2022-09-07 01:29:30,431 - INFO - views - User 'test01' reset password fail.
+2022-09-07 01:31:13,172 - INFO - views - User 'test01' request reset password success.
+2022-09-07 01:31:41,737 - INFO - views - User 'test01' reset password success.
+2022-09-07 01:33:23,257 - INFO - views - User 'test01' request reset password success.
+2022-09-07 01:33:37,758 - INFO - views - User 'test01' reset password fail.
+2022-09-07 01:33:47,422 - INFO - views - User 'test01' reset password success.
+2022-09-07 01:34:02,069 - INFO - views - User 'test01' login success.
+2022-09-07 01:36:26,243 - INFO - views - User 'test01' request reset password success.
+2022-09-07 01:36:40,341 - INFO - views - User 'test01' reset password fail.
+2022-09-07 01:36:48,774 - INFO - views - User 'test01' reset password success.
+2022-09-07 01:37:08,740 - INFO - views - User 'test01' login success.
+2022-09-07 01:37:32,700 - INFO - views - User 'test01' change password success.
+2022-09-07 01:41:19,312 - INFO - views - User 'test01' login success.
+2022-09-07 01:42:03,960 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:42:04,388 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:42:04,388 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:42:04,389 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:42:04,389 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:42:04,390 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:42:04,390 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:42:04,391 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:42:16,864 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:42:32,836 - ERROR - views - User 'test01' login fail.
+2022-09-07 01:47:55,705 - ERROR - views - User 'ss' login fail.
+2022-09-07 01:47:55,714 - ERROR - views - User 'ss' login fail.
+2022-09-07 01:47:55,753 - ERROR - views - User 'ss' login fail.
+2022-09-07 01:47:55,763 - ERROR - views - User 'ss' login fail.
+2022-09-07 01:47:55,882 - ERROR - views - User 'ss' login fail.
+2022-09-07 01:47:55,888 - ERROR - views - User 'ss' login fail.
+2022-09-07 01:50:35,764 - ERROR - views - User 'asd' login fail.
+2022-09-07 01:50:36,472 - ERROR - views - User 'asd' login fail.
+2022-09-07 01:51:56,550 - ERROR - views - User 'asd' login fail.
+2022-09-07 01:52:05,151 - ERROR - views - User 'asd' login fail.
+2022-09-07 01:52:05,869 - ERROR - views - User 'asd' login fail.
+2022-09-07 01:52:05,884 - ERROR - views - User 'asd' login fail.
+2022-09-07 02:07:26,423 - INFO - views - User 'test01' login success.
+2022-09-07 02:07:37,278 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-07 02:09:46,914 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-07 02:10:08,211 - ERROR - views - Wrong user/pass
+2022-09-07 02:11:26,960 - ERROR - views - User 'asd' login fail.
+2022-09-07 02:11:27,767 - ERROR - views - User 'asd' login fail.
+2022-09-07 02:14:51,858 - ERROR - views - User 'test01' login fail.
+2022-09-07 02:16:51,460 - ERROR - views - User 'a' login fail.
+2022-09-07 02:16:56,274 - ERROR - views - User 'asd' login fail.
+2022-09-07 02:19:56,701 - ERROR - views - User 'bbb' login fail.
+2022-09-07 02:19:58,443 - ERROR - views - User 'bbb' login fail.
+2022-09-07 02:21:23,742 - ERROR - views - User 'bbb' login fail.
+2022-09-07 02:23:35,323 - ERROR - views - User 'mmm' login fail.
+2022-09-07 02:23:59,593 - ERROR - views - User 'mmm' login fail.
+2022-09-07 02:24:03,689 - ERROR - views - User 'mmm' login fail.
+2022-09-07 02:28:17,986 - ERROR - views - User 'asd' login fail.
+2022-09-07 02:28:31,018 - ERROR - views - User 'asd' login fail.
+2022-09-07 02:28:39,619 - ERROR - views - User 'asd' login fail.
+<<<<<<< HEAD
+2022-09-08 01:36:14,566 - INFO - views - User 'quinhn' login success.
+2022-09-08 01:38:25,408 - INFO - views - User 'test02' request reset password success.
+2022-09-08 01:38:47,116 - INFO - views - User 'quinhn' login success.
+2022-09-08 01:39:22,766 - INFO - views - User 'quinhn' login success.
+2022-09-08 01:41:14,575 - INFO - views - User 'quinhn' login success.
+2022-09-08 01:51:41,286 - INFO - views - User 'quinhn' login success.
+2022-09-08 01:52:32,997 - INFO - views - User 'test02' request reset password success.
+2022-09-08 01:52:49,179 - INFO - views - User 'test02' reset password success.
+2022-09-08 01:55:06,515 - INFO - views - User 'test02' login success.
+2022-09-08 01:57:05,305 - INFO - views - User 'test02' login success.
+2022-09-08 01:57:31,213 - INFO - views - User 'test02' change password success.
+2022-09-08 02:00:40,845 - INFO - views - User 'test02' request reset password success.
+2022-09-08 02:00:54,154 - INFO - views - User 'test02' reset password success.
+2022-09-08 02:01:24,665 - INFO - views - User 'test02' change password success.
+2022-09-08 02:01:34,907 - INFO - views - User 'test02' login success.
+2022-09-08 02:28:46,866 - INFO - views - User 'quinhn' login success.
+2022-09-08 02:29:50,583 - ERROR - views - User 'quinhn' login fail.
+2022-09-08 02:30:01,463 - INFO - views - User 'quinhn' login success.
+2022-09-08 02:31:10,314 - INFO - views - User 'quinhn' login success.
+2022-09-08 02:32:03,677 - INFO - views - User 'quinhn' login success.
+2022-09-08 02:34:15,268 - INFO - views - User 'quinhn' login success.
+2022-09-08 02:39:29,532 - INFO - views - User 'quinhn' login success.
+2022-09-08 02:43:28,263 - INFO - views - User 'quinhn' login success.
+2022-09-08 02:46:07,125 - INFO - views - User 'quinhn' login success.
+2022-09-08 02:46:37,193 - INFO - views - User 'quinhn' login success.
+2022-09-08 02:47:29,595 - INFO - views - User 'quinhn' login success.
+2022-09-08 02:57:19,199 - INFO - views - User 'quinhn' login success.
+2022-09-08 03:01:50,139 - INFO - views - User 'quinhn' login success.
+2022-09-08 03:04:09,716 - INFO - views - User 'quinhn' login success.
+2022-09-08 03:05:13,604 - INFO - views - User 'quinhn' login success.
+2022-09-08 03:08:05,272 - INFO - views - User 'quinhn' login success.
+2022-09-08 03:08:43,812 - INFO - views - User 'quinhn' login success.
+2022-09-08 03:09:46,193 - INFO - views - User 'quinhn' login success.
+2022-09-08 03:11:21,594 - INFO - views - User 'quinhn' login success.
+2022-09-08 03:31:48,603 - ERROR - views - Wrong user/pass
+2022-09-08 03:34:50,480 - INFO - views - User 'quinhn' login success.
+2022-09-08 14:24:44,080 - INFO - views - User 'test01' request reset password success.
+2022-09-08 14:25:09,426 - INFO - views - User 'test01' reset password success.
+2022-09-08 14:25:39,831 - ERROR - views - Password change rejected: New password was used previously. Please choose a different password.
+2022-09-08 14:25:54,573 - INFO - views - User 'test01' change password success.
+2022-09-08 14:26:08,798 - INFO - views - User 'test01' login success.
+2022-09-08 15:29:20,786 - INFO - views - User 'ttleng1998' request reset password success.
+2022-09-08 15:29:53,968 - INFO - views - User 'ttleng1998' reset password success.
+2022-09-08 15:36:36,049 - INFO - views - User 'ttleng1998' login success.
+2022-09-08 21:30:43,314 - INFO - views - User 'ttleng1998' login success.
+2022-09-08 21:31:06,365 - INFO - views - User 'ttleng1998' request reset password success.
+2022-09-08 21:31:35,095 - INFO - views - User 'ttleng1998' reset password success.
+2022-09-08 21:32:16,228 - ERROR - views - Password change rejected: New password was used previously. Please choose a different password.
+2022-09-08 21:32:40,738 - ERROR - views - Password change rejected: New password was used previously. Please choose a different password.
+2022-09-08 23:02:10,953 - INFO - views - User 'tienleng.tan' login success.
+2022-09-08 23:02:39,150 - INFO - views - User 'tienleng.tan' change password success.
+2022-09-08 23:03:07,840 - INFO - views - User 'tienleng.tan' request reset password success.
+2022-09-08 23:03:37,563 - INFO - views - User 'tienleng.tan' reset password success.
+2022-09-08 23:05:57,023 - ERROR - views - Password change rejected: New password was used previously. Please choose a different password.
+2022-09-09 02:44:44,520 - INFO - views - User 'quinhn' login success.
+=======
+2022-09-09 09:43:34,678 - INFO - views - User 'quinhn' login success.
+2022-09-09 09:45:30,905 - INFO - views - User 'quinhn' login success.
+2022-09-09 09:45:58,018 - INFO - views - User 'quinhn' login success.
+2022-09-09 09:51:20,060 - INFO - views - User 'test01' request reset password success.
+2022-09-09 09:55:23,882 - INFO - views - User 'test01' request reset password success.
+2022-09-09 10:01:55,228 - ERROR - views - User 'quinhn' login fail.
+2022-09-09 10:02:04,906 - INFO - views - User 'quinhn' login success.
+2022-09-09 10:04:13,161 - INFO - views - User 'quinhn' login success.
+>>>>>>> c1cf81b2fa908f5d2a8a1b055cd1e604452d553a
+2022-09-09 10:10:57,016 - INFO - views - User 'quinhn' login success.
+2022-09-09 10:11:32,026 - INFO - views - User 'test01' request reset password success.
+2022-09-09 10:24:22,212 - ERROR - views - User 'quinhn' login fail.
+2022-09-09 10:24:30,062 - ERROR - views - User 'quinhn' login fail.
+2022-09-09 10:25:17,632 - INFO - views - User 'quinhn' login success.
+2022-09-09 10:25:34,079 - INFO - views - User 'test01' request reset password success.
+<<<<<<< HEAD
+2022-09-09 14:07:48,324 - ERROR - views - User 'ttleng1998' login fail.
+2022-09-09 14:08:08,669 - ERROR - views - User 'ttleng1998' login fail.
+=======
+2022-09-09 17:01:02,796 - INFO - views - User 'quinhn' login success.
+2022-09-09 17:03:19,472 - INFO - views - User 'quinhn' login success.
+2022-09-09 17:05:03,651 - INFO - views - User 'quinhn' login success.
+<<<<<<< HEAD
+>>>>>>> 047332c811c41cea804de037ec8252fa65892656
+2022-09-09 17:08:08,506 - INFO - views - User 'quinhn' login success.
+2022-09-09 17:08:46,191 - INFO - views - User 'test01' request reset password success.
+2022-09-09 17:10:47,925 - INFO - views - User 'quinhn' login success.
+2022-09-09 17:11:27,954 - INFO - views - User 'test01' login success.
+2022-09-09 17:11:37,150 - INFO - views - User 'test01' change password success.
+2022-09-09 17:11:48,554 - INFO - views - User 'test01' login success.
+2022-09-09 17:12:02,362 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-09 21:37:26,623 - INFO - views - User 'ttleng1998' login success.
+2022-09-09 21:38:13,369 - INFO - views - User 'ttleng1998' change password success.
+2022-09-09 21:38:40,306 - ERROR - views - User 'ttleng1998' request reset password fail.
+2022-09-09 21:38:52,939 - INFO - views - User 'ttleng1998' request reset password success.
+2022-09-09 21:39:57,476 - INFO - views - User 'ttleng1998' change password success.
+2022-09-09 22:04:06,576 - INFO - views - User 'quinhn' login success.
+2022-09-10 07:37:45,053 - INFO - views - User 'ttleng1998' request reset password success.
+2022-09-10 07:38:39,931 - ERROR - views - User 'ttleng1998' change new password not match.
+2022-09-10 07:39:07,297 - ERROR - views - Password change rejected: New password was used previously. Please choose a different password.
+2022-09-10 07:39:56,346 - ERROR - views - User 'ttleng1998' change new password not match.
+2022-09-10 07:40:26,082 - INFO - views - User 'ttleng1998' change password success.
+2022-09-10 21:28:52,093 - INFO - views - User 'test01' request reset password success.
+2022-09-10 21:29:26,417 - ERROR - views - Password change rejected: New password was used previously. Please choose a different password.
+2022-09-10 21:29:51,887 - INFO - views - User 'test01' change password success.
+2022-09-11 00:01:04,425 - INFO - views - User 'ttleng1998' request reset password success.
+2022-09-11 00:02:27,614 - INFO - views - User 'ttleng1998' change password success.
+2022-09-12 11:53:26,260 - INFO - views - User 'jack.wong' request reset password success.
+2022-09-12 11:54:00,588 - ERROR - views - Wrong user/pass
+2022-09-12 11:54:20,988 - ERROR - views - Wrong user/pass
+2022-09-12 11:54:51,699 - ERROR - views - Wrong user/pass
+2022-09-12 11:55:46,902 - INFO - views - User 'jack.wong' change password success.
+2022-09-12 11:55:52,794 - INFO - views - User 'jack.wong' login success.
+2022-09-13 06:30:37,114 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-13 06:30:56,989 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-13 06:31:12,948 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-13 06:31:47,050 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-13 06:32:35,274 - INFO - views - User 'tienleng.tan' login success.
+2022-09-13 06:33:08,336 - ERROR - views - Password change rejected: Password is too short
+2022-09-13 06:33:35,836 - INFO - views - User 'tienleng.tan' change password success.
+2022-09-13 07:24:29,686 - ERROR - views - User 'Admin' login fail.
+2022-09-13 07:24:56,355 - ERROR - views - User 'TESTUSER' login fail.
+2022-09-13 07:26:07,084 - INFO - views - User 'temp_sibu' login success.
+2022-09-13 07:26:47,871 - INFO - views - User 'temp_sibu' change password success.
+2022-09-13 07:27:08,696 - INFO - views - User 'temp_sibu' login success.
+2022-09-13 07:27:54,115 - INFO - views - User 'temp_sibu' login success.
+2022-09-13 07:28:48,566 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-13 12:59:55,055 - INFO - views - User 'supui.khoo' login success.
+2022-09-13 13:00:08,114 - INFO - views - User 'supui.khoo' change password success.
+2022-09-13 13:00:21,171 - INFO - views - User 'supui.khoo' login success.
+2022-09-13 13:46:07,106 - INFO - views - User 'yukming.poo' login success.
+2022-09-13 13:46:39,221 - INFO - views - User 'yukming.poo' change password success.
+2022-09-13 16:15:27,103 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:15:42,068 - ERROR - views - User 'nurularniesha.bintiridhuan' login fail.
+2022-09-13 16:16:13,909 - ERROR - views - User 'nurularnieshabinti.ridhuan' login fail.
+2022-09-13 16:16:35,226 - INFO - views - User 'huijie.ng' login success.
+2022-09-13 16:16:35,572 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:16:56,136 - INFO - views - User 'nur.fadzilah' login success.
+2022-09-13 16:17:26,945 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:17:49,623 - ERROR - views - User 'chernhan.shin' login fail.
+2022-09-13 16:18:08,192 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:18:31,149 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:18:43,901 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:19:02,064 - INFO - views - User 'huijie.ng' change password success.
+2022-09-13 16:19:12,994 - INFO - views - User 'jianwei.lee' login success.
+2022-09-13 16:19:18,462 - INFO - views - User 'huijie.ng' login success.
+2022-09-13 16:19:41,637 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:19:43,970 - INFO - views - User 'jianwei.lee' change password success.
+2022-09-13 16:19:53,255 - INFO - views - User 'jianwei.lee' login success.
+2022-09-13 16:19:57,360 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:20:09,336 - ERROR - views - User 'nureena.shahar' login fail.
+2022-09-13 16:20:38,364 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:20:42,743 - INFO - views - User 'nur.fadzilah' login success.
+2022-09-13 16:21:01,835 - INFO - views - User 'nur.fadzilah' change password success.
+2022-09-13 16:21:11,225 - INFO - views - User 'nur.fadzilah' login success.
+2022-09-13 16:21:16,492 - ERROR - views - User 'nureena.shahar' login fail.
+2022-09-13 16:21:21,316 - INFO - views - User 'jianwei.lee' login success.
+2022-09-13 16:21:48,217 - INFO - views - User 'nureena.shahar' login success.
+2022-09-13 16:21:48,871 - INFO - views - User 'chernhan.shin' login success.
+2022-09-13 16:22:09,917 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-13 16:22:22,008 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:22:33,250 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-13 16:22:39,653 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-13 16:23:00,850 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:23:39,246 - INFO - views - User 'nureena.shahar' change password success.
+2022-09-13 16:27:39,779 - INFO - views - User 'chernhan.shin' change password success.
+2022-09-13 16:27:58,835 - INFO - views - User 'chernhan.shin' login success.
+2022-09-13 16:33:28,402 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:46:38,604 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 16:46:55,013 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-13 17:05:25,252 - INFO - views - User 'siowyen.goh' login success.
+2022-09-13 17:06:18,536 - INFO - views - User 'siowyen.goh' change password success.
+2022-09-13 17:10:56,084 - INFO - views - User 'khenghoe.chan' login success.
+2022-09-13 17:11:33,478 - ERROR - views - Password change rejected: Password is too short
+2022-09-13 17:12:34,882 - INFO - views - User 'khenghoe.chan' change password success.
+2022-09-13 17:12:58,814 - INFO - views - User 'khenghoe.chan' login success.
+2022-09-13 20:42:38,037 - INFO - views - User 'andrew.woo' login success.
+=======
+2022-09-14 09:18:41,115 - INFO - views - User 'quinhn' login success.
+2022-09-14 09:39:19,064 - INFO - views - User 'quinhn' login success.
+>>>>>>> 88476fd19d82e92adcbe759efc0f6680cd5cb1e8
+2022-09-14 09:43:20,497 - INFO - views - User 'quinhn' login success.
+2022-09-14 09:43:47,763 - INFO - views - User 'test01' request reset password success.
+2022-09-14 09:44:22,185 - INFO - views - User 'test01' change password success.
+2022-09-14 12:10:40,304 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-14 12:11:01,293 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-14 12:11:20,899 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-14 12:12:21,851 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-14 12:12:57,150 - INFO - views - User 'tienleng.tan' login success.
+2022-09-14 13:13:43,913 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-14 13:14:01,284 - INFO - views - User 'tienleng.tan' login success.
+<<<<<<< HEAD
+2022-09-14 13:41:36,061 - ERROR - views - User 'wingyee.choy' login fail.
+2022-09-14 13:43:33,549 - INFO - views - User 'wingyee.choy' login success.
+2022-09-14 13:43:58,900 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-14 13:44:24,156 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-14 13:44:46,866 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-14 13:45:09,212 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-14 13:45:47,555 - INFO - views - User 'wingyee.choy' change password success.
+2022-09-14 13:51:13,506 - INFO - views - User 'qijin.wong' login success.
+2022-09-14 13:51:50,798 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-14 13:52:09,336 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-14 13:53:41,168 - INFO - views - User 'qijin.wong' change password success.
+2022-09-14 13:54:07,379 - ERROR - views - User 'qijin.wong' login fail.
+2022-09-14 13:54:39,249 - INFO - views - User 'qijin.wong' login success.
+2022-09-14 13:55:23,909 - INFO - views - User 'wingyee.choy' login success.
+=======
+2022-09-14 14:24:56,361 - INFO - views - User 'test01' request reset password success.
+2022-09-14 14:28:35,423 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:29:42,493 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:30:05,831 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:37:01,396 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:38:05,809 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:38:52,904 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:39:41,031 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:40:17,716 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:40:34,741 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:43:50,764 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:47:21,731 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:48:36,050 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:49:24,717 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:49:44,226 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:50:16,810 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:51:30,502 - INFO - views - User 'quinhn' login success.
+2022-09-14 14:51:56,868 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:00:39,206 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:03:00,807 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:04:33,912 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:05:50,217 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:06:32,467 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:06:52,949 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:07:14,791 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:07:25,857 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:07:49,879 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:25:02,732 - INFO - views - User 'test01' request reset password success.
+2022-09-14 15:29:18,035 - INFO - views - User 'test01' request reset password success.
+2022-09-14 15:35:24,622 - INFO - views - User 'test01' request reset password success.
+2022-09-14 15:38:58,807 - INFO - views - User 'test01' request reset password success.
+2022-09-14 15:39:21,414 - INFO - views - User 'test01' change password success.
+2022-09-14 15:39:31,918 - INFO - views - User 'test01' login success.
+2022-09-14 15:41:53,125 - INFO - views - User 'test01' login success.
+2022-09-14 15:42:16,448 - INFO - views - User 'test01' login success.
+2022-09-14 15:43:39,637 - INFO - views - User 'test01' login success.
+2022-09-14 15:43:58,323 - INFO - views - User 'test01' login success.
+>>>>>>> d663cacb17a6f5ce5042a16b577a7c801e0cafbb
+2022-09-14 15:45:55,207 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:47:11,861 - INFO - views - User 'quinhn' login success.
+2022-09-14 15:49:34,904 - INFO - views - User 'test01' request reset password success.
+2022-09-14 15:50:12,589 - INFO - views - User 'test01' change password success.
+<<<<<<< HEAD
+2022-09-14 16:21:36,529 - INFO - views - User 'quinhn' login success.
+2022-09-14 18:19:27,523 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-14 18:19:51,812 - INFO - views - User 'tienleng.tan' login success.
+2022-09-14 18:21:11,015 - INFO - views - User 'tienleng.tan' login success.
+2022-09-15 15:40:53,225 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-15 15:41:14,545 - INFO - views - User 'nurul.arniesha' request reset password success.
+2022-09-15 15:41:47,287 - ERROR - views - Wrong user/pass
+2022-09-15 15:42:21,704 - ERROR - views - Wrong user/pass
+2022-09-15 15:42:35,176 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-15 15:42:44,134 - ERROR - views - User 'nurul.arniesha' login fail.
+2022-09-15 15:42:59,932 - INFO - views - User 'nurul.arniesha' request reset password success.
+2022-09-15 15:43:36,147 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-15 15:44:08,718 - INFO - views - User 'nurul.arniesha' change password success.
+2022-09-15 15:44:15,643 - INFO - views - User 'nurul.arniesha' login success.
+=======
+2022-09-16 09:17:02,648 - INFO - views - User 'quinhn' login success.
+<<<<<<< HEAD
+>>>>>>> 864713401db174c7e808ab11037e10356f1f5fba
+2022-09-16 10:23:04,230 - INFO - views - User 'quinhn' login success.
+2022-09-19 09:22:41,711 - INFO - views - User 'fangqi.leang' login success.
+2022-09-19 09:22:47,844 - ERROR - views - User 'jinjie.koay@crowe.my' login fail.
+2022-09-19 09:22:55,362 - INFO - views - User 'sinyin.lim' login success.
+2022-09-19 09:23:10,675 - ERROR - views - User 'jinjie.koay' login fail.
+2022-09-19 09:23:34,032 - ERROR - views - User 'Jinjie.koay' login fail.
+2022-09-19 09:23:46,547 - INFO - views - User 'sinyin.lim' change password success.
+2022-09-19 09:23:46,582 - INFO - views - User 'fangqi.leang' change password success.
+2022-09-19 09:24:08,761 - INFO - views - User 'jinjie.koay' login success.
+2022-09-19 09:24:09,323 - INFO - views - User 'fangqi.leang' login success.
+2022-09-19 09:24:16,451 - INFO - views - User 'sinyin.lim' login success.
+2022-09-19 09:24:39,465 - INFO - views - User 'jinjie.koay' change password success.
+2022-09-19 09:24:54,336 - ERROR - views - User 'jinjie.koay' login fail.
+2022-09-19 09:25:13,060 - INFO - views - User 'jinjie.koay' login success.
+2022-09-19 09:25:39,335 - ERROR - views - User 'mingkhai.au' login fail.
+2022-09-19 09:25:56,783 - INFO - views - User 'mingkhai.au' login success.
+2022-09-19 09:26:10,954 - INFO - views - User 'yisiang.teh' login success.
+2022-09-19 09:26:16,477 - INFO - views - User 'mingkhai.au' change password success.
+2022-09-19 09:26:22,971 - INFO - views - User 'gimtheng.khor' login success.
+2022-09-19 09:26:45,950 - INFO - views - User 'gimtheng.khor' change password success.
+2022-09-19 09:26:54,885 - INFO - views - User 'gimtheng.khor' login success.
+2022-09-19 09:36:01,458 - INFO - views - User 'kokkiat.looi' login success.
+2022-09-19 09:36:22,158 - INFO - views - User 'kokkiat.looi' change password success.
+2022-09-19 09:36:25,190 - INFO - views - User 'yisiang.teh' change password success.
+2022-09-19 09:36:38,994 - INFO - views - User 'zuer.shio' login success.
+2022-09-19 09:36:51,577 - INFO - views - User 'yisiang.teh' login success.
+2022-09-19 09:37:06,498 - INFO - views - User 'zuer.shio' change password success.
+2022-09-19 09:37:13,745 - INFO - views - User 'zuer.shio' login success.
+2022-09-19 09:40:06,339 - INFO - views - User 'junxuan.loh' login success.
+2022-09-19 09:40:08,031 - INFO - views - User 'zhiyi.lim' login success.
+2022-09-19 09:40:27,799 - INFO - views - User 'zhiyi.lim' change password success.
+2022-09-19 09:40:33,201 - INFO - views - User 'junxuan.loh' change password success.
+2022-09-19 09:40:41,096 - INFO - views - User 'zhiyi.lim' login success.
+2022-09-19 09:41:06,959 - INFO - views - User 'junxuan.loh' login success.
+2022-09-19 09:51:34,443 - INFO - views - User 'yinlee.lim' login success.
+2022-09-19 09:52:14,244 - INFO - views - User 'yinlee.lim' change password success.
+2022-09-19 16:14:08,776 - INFO - views - User 'kailoon.tan' login success.
+2022-09-19 16:14:27,446 - INFO - views - User 'kailoon.tan' change password success.
+2022-09-19 16:14:37,628 - INFO - views - User 'kailoon.tan' login success.
+2022-09-19 17:03:45,584 - INFO - views - User 'tienleng.tan' login success.
+2022-09-20 07:35:27,616 - ERROR - views - User 'tienleng.tan' login fail.
+2022-09-20 07:35:40,622 - INFO - views - User 'tienleng.tan' login success.
+2022-09-20 10:04:33,332 - ERROR - views - User 'honsin.tham' login fail.
+2022-09-20 10:06:28,208 - ERROR - views - User 'honsin.tham' login fail.
+2022-09-20 10:07:23,657 - ERROR - views - User 'THS@chkl,com' login fail.
+2022-09-20 10:07:27,478 - ERROR - views - User 'siewhwei.kok' login fail.
+2022-09-20 10:07:54,065 - INFO - views - User 'thirumagal.k' login success.
+2022-09-20 10:08:10,495 - ERROR - views - User 'ths@chkl.com' login fail.
+2022-09-20 10:08:43,130 - ERROR - views - User 'honsin.tham' login fail.
+2022-09-20 10:14:09,983 - ERROR - views - User 'xuyang.taye' login fail.
+2022-09-20 10:14:33,770 - ERROR - views - User 'honsin.tham' login fail.
+2022-09-20 10:15:08,362 - INFO - views - User 'honsin.tham' request reset password success.
+2022-09-20 10:15:52,156 - INFO - views - User 'honsin.tham' change password success.
+2022-09-20 10:16:19,834 - INFO - views - User 'honsin.tham' login success.
+2022-09-20 10:18:20,861 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-20 10:19:13,700 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-20 10:20:16,855 - INFO - views - User 'honsin.tham' login success.
+2022-09-20 10:21:06,467 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-20 10:26:38,666 - ERROR - views - User 'xuyang.taye' login fail.
+2022-09-20 11:57:25,107 - INFO - views - User 'chianhong.law' request reset password success.
+2022-09-20 11:58:08,603 - INFO - views - User 'chianhong.law' change password success.
+2022-09-20 14:38:21,988 - INFO - views - User 'jackson.law' login success.
+2022-09-20 14:39:16,689 - INFO - views - User 'jackson.law' change password success.
+2022-09-20 14:39:31,086 - INFO - views - User 'jackson.law' login success.
+2022-09-21 07:28:16,763 - INFO - views - User 'wanching.chua' login success.
+2022-09-21 07:28:43,852 - INFO - views - User 'wanching.chua' change password success.
+2022-09-21 10:46:02,285 - ERROR - views - User 'carrie.ting' login fail.
+2022-09-21 10:46:40,833 - INFO - views - User 'carrie.ting' login success.
+2022-09-21 10:47:25,448 - INFO - views - User 'carrie.ting' change password success.
+2022-09-21 10:47:37,250 - INFO - views - User 'carrie.ting' login success.
+2022-09-21 14:35:50,608 - INFO - views - User 'elvina.tay' login success.
+2022-09-21 14:36:12,160 - INFO - views - User 'elvina.tay' change password success.
+2022-09-21 15:06:30,600 - ERROR - views - User 'admin' login fail.
+2022-09-21 15:09:02,541 - INFO - views - User 'temp_kk' login success.
+2022-09-21 15:12:26,887 - INFO - views - User 'temp_kk' login success.
+2022-09-21 15:12:48,447 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-21 15:13:28,105 - ERROR - views - User 'temp_kk1' login fail.
+2022-09-21 15:13:38,194 - INFO - views - User 'temp_kk' change password success.
+2022-09-21 15:13:51,075 - INFO - views - User 'temp_kk' login success.
+2022-09-21 15:14:01,567 - INFO - views - User 'temp_kk1' login success.
+2022-09-21 15:14:13,310 - ERROR - views - Wrong user/pass
+2022-09-21 15:14:29,933 - INFO - views - User 'temp_kk1' change password success.
+2022-09-21 15:14:39,001 - INFO - views - User 'temp_kk1' login success.
+2022-09-21 15:14:40,996 - INFO - views - User 'temp_kk' login success.
+2022-09-21 15:15:22,902 - INFO - views - User 'temp_kk1' login success.
+2022-09-21 15:15:47,675 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-21 15:16:22,597 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-21 15:18:19,348 - ERROR - views - User 'temp_kk1' login fail.
+2022-09-21 15:18:35,510 - INFO - views - User 'temp_kk1' login success.
+2022-09-21 15:18:55,668 - ERROR - views - Password change rejected: New password was used previously. Please choose a different password.
+2022-09-21 15:19:19,480 - INFO - views - User 'temp_kk1' change password success.
+2022-09-21 15:19:26,831 - INFO - views - User 'temp_kk1' login success.
+2022-09-21 15:28:17,114 - INFO - views - User 'temp_kk' login success.
+2022-09-21 15:28:33,993 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-21 22:02:49,316 - INFO - views - User 'quinhn' login success.
+2022-09-21 22:03:10,543 - INFO - views - User 'tienleng.tan' login success.
+2022-09-21 22:06:49,485 - INFO - views - User 'quinhn' login success.
+2022-09-21 22:25:54,162 - INFO - views - User 'tienleng.tan' login success.
+2022-09-21 22:26:07,219 - INFO - views - User 'quinhn' login success.
+2022-09-22 09:38:47,499 - INFO - views - User 'siewhwei.kok' request reset password success.
+2022-09-22 09:40:05,509 - INFO - views - User 'siewhwei.kok' change password success.
+2022-09-22 09:40:28,358 - INFO - views - User 'siewhwei.kok' login success.
+=======
+2022-09-22 10:13:00,124 - INFO - views - User 'quinhn' login success.
+2022-09-22 10:13:41,186 - INFO - views - User 'quinhn' login success.
+2022-09-22 10:14:00,446 - INFO - views - User 'quinhn' login success.
+2022-09-22 10:14:28,097 - INFO - views - User 'quinhn' login success.
+2022-09-22 10:19:18,621 - ERROR - views - User 'quinhn' login fail.
+2022-09-22 10:19:27,684 - INFO - views - User 'quinhn' login success.
+2022-09-22 10:22:30,466 - INFO - views - User 'quinhn' login success.
+2022-09-22 10:23:15,045 - INFO - views - User 'quinhn' login success.
+<<<<<<< HEAD
+>>>>>>> 269999b2c5c680c3bec27bb9852c9458ab6bd4a7
+2022-09-22 10:26:11,155 - ERROR - views - User 'quinhn' login fail.
+2022-09-22 10:26:18,547 - INFO - views - User 'quinhn' login success.
+=======
+2022-09-22 10:34:00,713 - INFO - views - User 'quinhn' login success.
+>>>>>>> 5e2b4e621ce83b782386279f0f26857c7b365822
+2022-09-22 10:37:50,495 - INFO - views - User 'quinhn' login success.
+2022-09-22 11:57:49,214 - INFO - views - User 'amy.lau' login success.
+2022-09-22 11:58:18,094 - INFO - views - User 'amy.lau' change password success.
+2022-09-22 11:58:27,793 - INFO - views - User 'amy.lau' login success.
+2022-09-22 11:58:46,414 - INFO - views - User 'tiffany.law' login success.
+2022-09-22 11:59:35,225 - ERROR - views - Password change rejected: Password does not contain enough character classes
+2022-09-22 12:01:34,425 - INFO - views - User 'tiffany.law' change password success.
+2022-09-22 12:05:08,632 - INFO - views - User 'cynthia.ting' login success.
+2022-09-22 12:06:19,029 - INFO - views - User 'cynthia.ting' change password success.
+2022-09-22 12:07:02,926 - INFO - views - User 'johnny.ting' login success.
+2022-09-22 12:07:28,865 - INFO - views - User 'johnny.ting' change password success.
+2022-09-22 12:07:48,643 - INFO - views - User 'johnny.ting' login success.
+2022-09-22 12:08:08,194 - ERROR - views - User 'CHANKK.MIR' login fail.
+2022-09-22 12:08:35,974 - ERROR - views - Password change rejected: Current password's minimum life has not expired
+2022-09-22 12:08:41,853 - ERROR - views - User 'CHANKK.MIR' request reset password fail.
+2022-09-22 12:09:11,813 - ERROR - views - Wrong user/pass
+2022-09-22 12:09:16,633 - INFO - views - User 'chenjie.phan' login success.
+2022-09-22 12:09:44,104 - INFO - views - User 'johnny.ting' login success.
+2022-09-22 12:10:09,294 - INFO - views - User 'chenjie.phan' change password success.
+2022-09-22 12:10:31,815 - ERROR - views - User 'johnny.ting' login fail.
+2022-09-22 12:10:43,228 - INFO - views - User 'johnny.ting' login success.
+2022-09-22 12:12:12,704 - ERROR - views - User 'CHANKK.MIR' request reset password fail.
+2022-09-22 12:15:48,336 - INFO - views - User 'vincent.teng' login success.
+2022-09-22 12:16:06,180 - ERROR - views - User 'vincent.teng' change new password not match.
+2022-09-22 12:16:18,214 - INFO - views - User 'vincent.teng' change password success.
+2022-09-22 12:17:06,800 - INFO - views - User 'vincent.teng' login success.
+2022-09-22 12:49:39,398 - INFO - views - User 'catherine.wong' login success.
+2022-09-22 12:50:20,562 - INFO - views - User 'catherine.wong' change password success.
+2022-09-22 14:51:54,560 - INFO - views - User 'beeling.kwong' login success.
+2022-09-22 14:52:46,659 - INFO - views - User 'beeling.kwong' change password success.
+2022-09-22 15:37:31,102 - INFO - views - User 'quinhn' login success.
+2022-09-22 17:15:23,175 - ERROR - views - User 'admin' login fail.
+2022-09-22 22:05:33,044 - INFO - views - User 'quinhn' login success.
+2022-09-23 07:11:43,140 - INFO - views - User 'shirley.hii' login success.
+2022-09-23 07:12:18,715 - INFO - views - User 'shirley.hii' change password success.
+2022-09-23 15:08:47,484 - INFO - views - User 'quinhn' login success.
+2022-09-23 15:09:38,736 - INFO - views - User 'quinhn' request reset password success.
+2022-09-23 15:10:16,364 - ERROR - views - Wrong user/pass
+2022-09-23 15:10:49,811 - ERROR - views - Wrong user/pass
+2022-09-23 15:11:22,945 - ERROR - views - User 'quinhn' login fail.
+2022-09-23 15:14:27,975 - INFO - views - User 'test01' request reset password success.
+2022-09-23 15:15:05,592 - INFO - views - User 'test01' change password success.
+2022-09-23 15:15:18,791 - INFO - views - User 'test01' login success.
+2022-09-23 17:12:02,638 - INFO - views - User 'nur.fadzilah' login success.
+2022-09-23 17:12:19,819 - INFO - views - User 'nur.fadzilah' login success.
+2022-09-23 18:31:49,969 - INFO - views - User 'tienleng.tan' login success.
